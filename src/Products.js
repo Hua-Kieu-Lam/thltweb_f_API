@@ -196,7 +196,7 @@ export default function Products() {
                     <Button variant="secondary" onClick={handleClose}>
                         Close
                     </Button>
-                    <Button variant="primary" onClick={() => { handleUpdate(); }}>
+                    <Button variant="primary" onClick={() => { handleClose(); handleUpdate() }}>
                         Save Changes
                     </Button>
                 </Modal.Footer>
